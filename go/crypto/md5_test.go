@@ -2,7 +2,7 @@ package crypto
 
 import "testing"
 import "reflect"
-
+// TestGetMD5 测试md5生成
 func TestGetMD5(t *testing.T) {
 	s := "Hello,Golang!"
 	md := "9cea3f44c8955043a21997961b5f60a2"
