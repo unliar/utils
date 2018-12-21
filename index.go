@@ -1,1 +1,3 @@
-// temp file
+package main
+
+// tem file
