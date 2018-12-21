@@ -6,15 +6,15 @@
  * @return {object} 返回铺平对象
  */
 const flapObject = (obj, result = {}) => {
-    if (Object.keys(obj).length === 0) return result;
-    Object.keys(obj).forEach(item => {
-        if (typeof obj[item] === 'object') {
-            result = flapObject(obj[item], result);
-        } else {
-            result[item] = obj[item];
-        }
-    });
-    return result;
+  if (Object.keys(obj).length === 0) return result;
+  Object.keys(obj).forEach(item => {
+    if (typeof obj[item] === 'object') {
+      result = flapObject(obj[item], result);
+    } else {
+      result[item] = obj[item];
+    }
+  });
+  return result;
 };
 
-module.exports = flapObject
+module.exports = flapObject;
