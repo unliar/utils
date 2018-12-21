@@ -22,7 +22,9 @@ const LoadAllFiles = (targetPath, fileInfo = []) => {
         temp.push({filePath: path.join(targetPath, item)});
       }
       if (itemState.isDirectory()) {
-        temp.push(...LoadAllFiles(path.join(targetPath, item), fileInfo));
+        temp.push(
+            ...LoadAllFiles(path.join(targetPath, item), fileInfo),
+        );
       }
     });
     return temp;
