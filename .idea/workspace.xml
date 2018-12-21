@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d1adca-bcd4-48a3-8eb6-56671ef81241" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/go/images/captcha.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/math/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/math/math.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/math/math_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/math/math_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +11,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/utils$go_test_crypto.out" NAME="go test crypto Coverage Results" MODIFIED="1545356506517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/utils$go_test_http.out" NAME="go test http Coverage Results" MODIFIED="1545356421326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="276" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/go/images/captcha.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,12 +49,13 @@
         <option value="$PROJECT_DIR$/go/http/get_test.go" />
         <option value="$PROJECT_DIR$/go/math/math.go" />
         <option value="$PROJECT_DIR$/go/math/math_test.go" />
+        <option value="$PROJECT_DIR$/go/images/captcha.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="266" />
-    <option name="y" value="175" />
+    <option name="x" value="172" />
+    <option name="y" value="244" />
     <option name="width" value="1440" />
     <option name="height" value="791" />
   </component>
@@ -50,8 +67,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -76,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.go test math">
+  <component name="RunManager" selected="Go Test.go test crypto">
     <configuration name="get_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="utils" />
       <working_directory value="$PROJECT_DIR$/go/http" />
@@ -84,6 +116,15 @@
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/go/http/get_test.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test crypto" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <working_directory value="$PROJECT_DIR$/go/crypto" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/go/crypto" />
+      <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="go test http" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -104,11 +145,22 @@
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="gobench http" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="utils" />
+      <working_directory value="$PROJECT_DIR$/go/http" />
+      <framework value="gobench" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/go/http" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test math" />
+        <item itemvalue="Go Test.go test crypto" />
         <item itemvalue="Go Test.go test http" />
+        <item itemvalue="Go Test.gobench http" />
         <item itemvalue="Go Test.get_test.go" />
+        <item itemvalue="Go Test.go test math" />
       </list>
     </recent_temporary>
   </component>
@@ -128,11 +180,24 @@
     <history-entry file="go_test_math - 2018.12.12 at 12h 24m 28s.xml">
       <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="gobench_http - 2018.12.21 at 09h 40m 04s.xml">
+      <configuration name="gobench http" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_http - 2018.12.21 at 09h 40m 12s.xml">
+      <configuration name="go test http" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_http - 2018.12.21 at 09h 40m 31s.xml">
+      <configuration name="go test http" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_crypto - 2018.12.21 at 09h 41m 47s.xml">
+      <configuration name="go test crypto" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="266" y="175" width="1440" height="791" extended-state="0" />
+    <frame x="172" y="244" width="1440" height="791" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34698275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35847703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -145,12 +210,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32730016" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3267776" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3297414" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +267,13 @@
           <folding>
             <element signature="e#14#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/images/captcha.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
