@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d1adca-bcd4-48a3-8eb6-56671ef81241" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/file/loadAllFileInFolder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/file/loadAllFileInFolder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/math/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/math/math.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/math/math_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/math/math_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,66 +20,21 @@
     <option name="myElementSize" value="276" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/file/index.js">
+        <entry file="file://$PROJECT_DIR$/go/math/math.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/math/GetRandomInt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/math/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/object/flapObject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/object/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/os/GetOsIPInfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="242">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node/os/index.js">
+        <entry file="file://$PROJECT_DIR$/go/math/math_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="374">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -94,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="/usr/lib/go-1.11" />
+  <component name="GOROOT" path="/usr/lib/go-1.10" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -103,8 +58,6 @@
       <list>
         <option value="$PROJECT_DIR$/go/http/get.go" />
         <option value="$PROJECT_DIR$/go/http/get_test.go" />
-        <option value="$PROJECT_DIR$/go/math/math.go" />
-        <option value="$PROJECT_DIR$/go/math/math_test.go" />
         <option value="$PROJECT_DIR$/go/images/captcha.go" />
         <option value="$PROJECT_DIR$/node/math/index.js" />
         <option value="$PROJECT_DIR$/node/file/loadAllFileInFloder.js" />
@@ -112,14 +65,14 @@
         <option value="$PROJECT_DIR$/node/os/GetOsIPInfo.js" />
         <option value="$PROJECT_DIR$/node/object/flapObject.js" />
         <option value="$PROJECT_DIR$/node/file/loadAllFileInFolder.js" />
+        <option value="$PROJECT_DIR$/go/math/math.go" />
+        <option value="$PROJECT_DIR$/go/math/math_test.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="166" />
-    <option name="y" value="170" />
-    <option name="width" value="1440" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1235" />
+    <option name="height" value="547" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,31 +93,7 @@
             <path>
               <item name="utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="object" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-              <item name="os" type="462c0819:PsiDirectoryNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,14 +123,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.go test crypto">
-    <configuration name="get_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test math">
+    <configuration name="TestGetRandomNumberString in math_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="utils" />
-      <working_directory value="$PROJECT_DIR$/go/http" />
+      <working_directory value="$PROJECT_DIR$/go/math" />
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/go/http/get_test.go" />
+      <filePath value="$PROJECT_DIR$/go/math/math_test.go" />
+      <pattern value="^TestGetRandomNumberString$" />
       <method v="2" />
     </configuration>
     <configuration name="go test crypto" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -242,48 +172,73 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test math" />
+        <item itemvalue="Go Test.TestGetRandomNumberString in math_test.go" />
         <item itemvalue="Go Test.go test crypto" />
         <item itemvalue="Go Test.go test http" />
         <item itemvalue="Go Test.gobench http" />
-        <item itemvalue="Go Test.get_test.go" />
-        <item itemvalue="Go Test.go test math" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_http - 2018.12.12 at 12h 15m 33s.xml">
-      <configuration name="go test http" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_math - 2018.12.12 at 12h 23m 50s.xml">
+    <history-entry file="go_test_math - 2019.01.07 at 01h 24m 54s.xml">
       <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_math - 2018.12.12 at 12h 24m 08s.xml">
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 33s.xml">
       <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_math - 2018.12.12 at 12h 24m 24s.xml">
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 40s.xml">
       <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_math - 2018.12.12 at 12h 24m 28s.xml">
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 41s.xml">
       <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="gobench_http - 2018.12.21 at 09h 40m 04s.xml">
-      <configuration name="gobench http" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 43s.xml">
+      <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_http - 2018.12.21 at 09h 40m 12s.xml">
-      <configuration name="go test http" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 44s.xml">
+      <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_http - 2018.12.21 at 09h 40m 31s.xml">
-      <configuration name="go test http" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 45s.xml">
+      <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_crypto - 2018.12.21 at 09h 41m 47s.xml">
-      <configuration name="go test crypto" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_math - 2019.01.07 at 01h 25m 51s.xml">
+      <configuration name="go test math" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_math - 2019.01.07 at 01h 26m 28s.xml">
+      <configuration name="go test math" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_math - 2019.01.07 at 01h 26m 45s.xml">
+      <configuration name="go test math" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="166" y="170" width="1440" height="789" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35847703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10309829" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32908705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18471338" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3297414" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10309829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,14 +251,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32776934" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18471338" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info active="true" anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.3297414" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -322,23 +277,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/go-1.11/src/math/rand/rand.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="313" column="5" selection-start-line="313" selection-start-column="5" selection-end-line="313" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go/math/math_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/lib/go-1.11/src/math/rand/rand.go" />
     <entry file="file://$PROJECT_DIR$/go/http/get_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -359,23 +298,7 @@
     <entry file="file://$PROJECT_DIR$/go/crypto/md5.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/go/math/math.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node/file/loadAllFileInFloder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="29" />
-          <folding>
-            <element signature="e#218#914#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node/file/loadAllFileInFloder.js" />
     <entry file="file://$PROJECT_DIR$/node/file/loadAllFileInFolder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -394,52 +317,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/file/index.js">
+    <entry file="file://$PROJECT_DIR$/node/os/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/math/GetRandomInt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/file/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/math/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/object/flapObject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="220">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/object/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node/os/GetOsIPInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="624">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/os/index.js">
+    <entry file="file://$PROJECT_DIR$/go/math/math.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="242">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go/math/math_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
