@@ -10,7 +10,7 @@ const path = require('path');
 exports.PublicKeyEncrypt = (data, keyPath) => {
   const keyData = fs.readFileSync(keyPath);
   const publicKey = keyData.toString();
-  const buf = Buffer.from(data, 'utf8');
+  const buf = Buffer.from(data, 'utf16le');
   const result = crypto.publicEncrypt(
       {key: publicKey, padding: crypto.constants.RSA_PKCS1_PADDING}, buf);
   return result.toString('base64');
@@ -27,5 +27,5 @@ exports.PrivateKeyDecrypt = (base64Data, keyPath) => {
   const buf = Buffer.from(base64Data, 'base64');
   const result = crypto.privateDecrypt(
       {key: PrivateKey, padding: crypto.constants.RSA_PKCS1_PADDING}, buf);
-  return result.toString();
+  return result.toString('utf16le');
 };
