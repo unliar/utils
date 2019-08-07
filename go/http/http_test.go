@@ -6,7 +6,7 @@ import (
 )
 
 func TestGet(t *testing.T) {
-	s, err := Get("https://baidu.com")
+	s, err := Get("https://baidu.com", nil, nil)
 	if err != nil {
 		if !reflect.DeepEqual(s, "") {
 			t.Error("when error must be empty string", s)
