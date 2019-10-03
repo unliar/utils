@@ -21,7 +21,7 @@ func (m M) CommonPublicKeySign(AliPayPublicKey *rsa.PublicKey, AppPrivateKey *rs
 	var data []string
 	for k, v := range m {
 		if k != "sign" && v != "" {
-			data = append(data, "%s=%s", k, v)
+			data = append(data, fmt.Sprintf("%s=%s", k, v))
 		}
 	}
 	sort.Strings(data)
