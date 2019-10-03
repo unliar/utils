@@ -16,7 +16,7 @@ import (
 type M map[string]string
 
 // 支付宝签名
-func (m M) CommonPublicKeySign(AliPayPublicKey *rsa.PublicKey, AppPrivateKey rsa.PrivateKey, SignType string) (string, error) {
+func (m M) CommonPublicKeySign(AliPayPublicKey *rsa.PublicKey, AppPrivateKey *rsa.PrivateKey, SignType string) (string, error) {
 	var data []string
 	for k, v := range m {
 		if k != "sign" && v != "" {
