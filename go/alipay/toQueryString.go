@@ -1,4 +1,4 @@
-package string
+package alipay
 
 import (
 	"fmt"
@@ -6,7 +6,6 @@ import (
 	"strings"
 )
 
-type M map[string]string
 
 func (m M) ToQueryString(ignoreEmpty bool, sortByASCII bool) string {
 	var data []string

@@ -1,4 +1,4 @@
-package string
+package alipay
 
 import (
 	"strings"
