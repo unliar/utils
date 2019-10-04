@@ -35,7 +35,6 @@ func Post(url string, data interface{}, headers map[string]string) (res string, 
 	defer func() {
 		_ = resp.Body.Close()
 	}()
-	fmt.Println("status", resp.StatusCode)
 	body, _ := ioutil.ReadAll(resp.Body)
 
 	return string(body), nil
@@ -65,7 +64,6 @@ func Get(url string, qs map[string]string, headers map[string]string) (res strin
 	defer func() {
 		_ = resp.Body.Close()
 	}()
-	fmt.Println("statusCode", req.URL, resp.StatusCode)
 	body, _ := ioutil.ReadAll(resp.Body)
 	return string(body), nil
 }
