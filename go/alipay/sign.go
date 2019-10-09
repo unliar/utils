@@ -7,11 +7,11 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"encoding/base64"
+	"fmt"
 	"hash"
 	"net/url"
 	"sort"
 	"strings"
-	"fmt"
 )
 
 type M map[string]string
@@ -27,7 +27,7 @@ func (m M) CommonPublicKeySign(AliPayPublicKey *rsa.PublicKey, AppPrivateKey *rs
 	sort.Strings(data)
 	// 待签名字符串
 	signStr := strings.Join(data, "&")
-	fmt.Println("debug签名字符串=>",signStr)
+	fmt.Println("debug签名字符串=>", signStr)
 	// 默认是RSA2 256
 	s, cs := GetSignOpsBySignType(SignType)
 	_, err := s.Write([]byte(signStr))
@@ -43,7 +43,7 @@ func (m M) CommonPublicKeySign(AliPayPublicKey *rsa.PublicKey, AppPrivateKey *rs
 }
 
 // 根据签名的类型获取不同的值
-func GetSignOpsBySignType(t string) (hash.Hash, crypto.SignerOpts) {
+func GetSignOpsBySignType(t string) (hash.Hash, crypto.Hash) {
 	if t == "RSA1" {
 		return sha1.New(), crypto.SHA1
 	}
