@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:1.13
+    working_directory: /go/src/github.com/unliar/alipay
+    steps:
+      - checkout
+      - run: go test ./go/alipay
+      - run: go test ./go/crypto
+      - run: go test ./go/http
+      - run: go test ./go/math
+      - run: go test ./go/string
+
