@@ -22,6 +22,5 @@ func (m M) ToQueryString(ignoreEmpty bool, sortByASCII bool) string {
 		sort.Strings(data)
 	}
 	qs := strings.Join(data, "&")
-	fmt.Println("debug ToQueryString =>",m,"\n",qs)
 	return qs
 }

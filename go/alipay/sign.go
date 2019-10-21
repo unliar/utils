@@ -27,7 +27,6 @@ func (m M) CommonPublicKeySign(AliPayPublicKey *rsa.PublicKey, AppPrivateKey *rs
 	sort.Strings(data)
 	// 待签名字符串
 	signStr := strings.Join(data, "&")
-	fmt.Println("debug签名字符串=>", signStr)
 	// 默认是RSA2 256
 	s, cs := GetSignOpsBySignType(SignType)
 	_, err := s.Write([]byte(signStr))
