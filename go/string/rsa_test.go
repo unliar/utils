@@ -1,9 +1,6 @@
-
-
 package string
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -16,7 +13,6 @@ MIIEogIBAAKCAQEA5W9bEQxWhuVs1Tgaur70tbk1i2wSzHEQGrkK44EVsBh88ZpdcfvcDcYYvbNU1PrD
 `
 	r := ConvertStrToPKCS1PrivateKey(str)
 	if r != nil {
-		fmt.Println("ConvertStrToPKCS1PrivateKey pass")
 		return
 	}
 	t.Errorf("ConvertStrToPKCS1PrivateKey fail")
@@ -31,7 +27,6 @@ MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5W9bEQxWhuVs1Tgaur70tbk1i2wSzHEQGrkK
 `
 	r := ConvertStrToPKCS1PublicKey(str)
 	if r != nil {
-		fmt.Println("ConvertStrToPKCS1PublicKey pass", r)
 		return
 	}
 	t.Error("ConvertStrToPKCS1PublicKey fail")
