@@ -22,3 +22,11 @@ func TestGetRandomNumberString(t *testing.T) {
 	}
 	fmt.Println("TestGetRandomNumberString", r)
 }
+
+func TestGetRandomString(t *testing.T) {
+	l:=10
+	r:=GetRandomString(l)
+	if len(r)!=l {
+		t.Error("length should be",l)
+	}
+}
