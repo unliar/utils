@@ -8,15 +8,15 @@ import (
 	"time"
 )
 
-func Post(url string, data interface{}, headers map[string]string) (res string, err error) {
+func Post(url string, data interface{}, headers map[string]string) (res []byte, err error) {
 	jsonStr, err := json.Marshal(data)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer([]byte(jsonStr)))
 	if err != nil {
-		return "", err
+		return nil, err
 
 	}
 	// 添加请求头
@@ -28,7 +28,7 @@ func Post(url string, data interface{}, headers map[string]string) (res string, 
 	client.Timeout = 15 * time.Second
 	resp, err := client.Do(req)
 	if err != nil {
-		return "", err
+		return nil, err
 
 	}
 	defer func() {
@@ -36,13 +36,13 @@ func Post(url string, data interface{}, headers map[string]string) (res string, 
 	}()
 	body, _ := ioutil.ReadAll(resp.Body)
 
-	return string(body), nil
+	return body, nil
 }
 
-func Get(url string, qs map[string]string, headers map[string]string) (res string, err error) {
+func Get(url string, qs map[string]string, headers map[string]string) (res []byte, err error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 	q := req.URL.Query()
 	// 添加请求参数
@@ -58,11 +58,11 @@ func Get(url string, qs map[string]string, headers map[string]string) (res strin
 	client.Timeout = 15 * time.Second
 	resp, err := client.Do(req)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 	defer func() {
 		_ = resp.Body.Close()
 	}()
 	body, _ := ioutil.ReadAll(resp.Body)
-	return string(body), nil
+	return body, nil
 }
