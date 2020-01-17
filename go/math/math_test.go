@@ -24,9 +24,17 @@ func TestGetRandomNumberString(t *testing.T) {
 }
 
 func TestGetRandomString(t *testing.T) {
-	l:=10
-	r:=GetRandomString(l)
-	if len(r)!=l {
-		t.Error("length should be",l)
+	l := 10
+	r := GetRandomString(l)
+	if len(r) != l {
+		t.Error("length should be", l)
+	}
+}
+
+func TestFloatDecimal(t *testing.T) {
+	n := 100 / 1.999
+	r, err := FloatDecimal(n, 2)
+	if err != nil || r == 0 {
+		t.Error(err)
 	}
 }

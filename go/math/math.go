@@ -1,7 +1,9 @@
 package math
 
 import (
+	"fmt"
 	"math/rand"
+	"strconv"
 	"time"
 )
 
@@ -30,4 +32,12 @@ func GetRandomString(length int) string {
 		b[i] = charset[seededRand.Intn(len(charset))]
 	}
 	return string(b)
+}
+
+// 获取浮点数精度
+func FloatDecimal(f float64,n int)(r float64,err error)  {
+	nx:= strconv.Itoa(n)
+	fm:="%."+nx+"f"
+	str:= fmt.Sprintf(fm,f)
+	return strconv.ParseFloat(str,10)
 }
