@@ -14,6 +14,7 @@ func GetRandomInt(max int, min int) int {
 
 // GetRandomNumberString 生成随机长度的整数字符串
 func GetRandomNumberString(length int) string {
+	rand.Seed(time.Now().UnixNano())
 	s := "1234567890"
 	b := make([]byte, length)
 	for i := range b {
@@ -35,9 +36,9 @@ func GetRandomString(length int) string {
 }
 
 // 获取浮点数精度
-func FloatDecimal(f float64,n int)(r float64,err error)  {
-	nx:= strconv.Itoa(n)
-	fm:="%."+nx+"f"
-	str:= fmt.Sprintf(fm,f)
-	return strconv.ParseFloat(str,10)
+func FloatDecimal(f float64, n int) (r float64, err error) {
+	nx := strconv.Itoa(n)
+	fm := "%." + nx + "f"
+	str := fmt.Sprintf(fm, f)
+	return strconv.ParseFloat(str, 10)
 }
